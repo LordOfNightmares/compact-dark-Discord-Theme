@@ -103,26 +103,6 @@ section{
 /* .usernameFont-2oJxoI {
   font-size: 1em !important;
 } */
-/* -----------------------Right panel-------------------- */
-/*Name font*/
-[class*='username']{
-  font-size: 0.9em !important;
-}
-/* Members */
-[class*='memberInner']{
-  padding: 0px 2px !important;
-}
-[class*='membersGroup'] {
-  padding: 0px 1em !important;
-  height: auto !important;
-  background-color: var(--black4);
-  border: 0.08em solid var(--black5);
-  border-radius: 1em;
-  zoom: 85% !important;
-}
-/* [class*='scroller_f0f'] */
-/* [class*='scroller_']  */
-/* [class*='content__23'] */
 #channels>ul>li {
   /* height:6px !important; */
   zoom:80% !important;
@@ -136,3 +116,24 @@ section{
 [class*='emojiLockIconContainer']{
   display: none !important;
 }
+/* -----------------------Right panel-------------------- */
+/*Name font*/
+[class*='username']{
+  font-size: 0.9em !important;
+}
+/* Members */
+[class*='memberInner']{
+  padding: 0px 2px !important;
+}
+h3[class*='membersGroup'] {
+  margin-top: 2px;
+  padding: 0px 1em !important;
+  height: auto !important;
+  background-color: var(--black4);
+  border: 0.08em solid var(--black5);
+  border-radius: 1em;
+  zoom: 85% !important;
+}
+/* [class*='scroller_f0f'] */
+/* [class*='scroller_']  */
+/* [class*='content__23'] */
