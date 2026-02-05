@@ -137,3 +137,11 @@ h3[class*='membersGroup'] {
 /* [class*='scroller_f0f'] */
 /* [class*='scroller_']  */
 /* [class*='content__23'] */
+/*In chat*/
+[class*='embedFull']:has([class*='embedVideo']),
+[class*='embedIframe'],
+[class*='embedMedia']:has([class*='embedIframe']),
+[class*='embedVideo']:has([class*='embedIframe']){
+  min-width: 100%;
+  min-height: 350px;
+}
